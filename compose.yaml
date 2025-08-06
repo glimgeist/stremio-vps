@@ -54,9 +54,9 @@ include:
   - apps/prowlarr/compose.yaml
   - apps/quetre/compose.yaml
   - apps/radarr/compose.yaml
-  - apps/redlib/compose.yaml
   - apps/realdebrid-account-monitor/compose.yaml
   - apps/recyclarr/compose.yaml
+  - apps/redlib/compose.yaml
   - apps/seanime/compose.yaml
   - apps/searxng/compose.yaml
   - apps/sonarr/compose.yaml
