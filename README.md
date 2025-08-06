@@ -40,8 +40,8 @@ Prerequisites:
    docker compose up -d
    ```
    - Ensure you defined the `COMPOSE_PROFILES` environment variable in the .env file, otherwise none of the services will start
-      - You can also use the --profile flag e.g. docker compose --profile stremio --profile seanime up -d
-      - This can be useful for other commands like `docker compose --profile seanime restart` or `docker compose --profile seanime logs` 
+      - You can also use the --profile flag e.g. docker compose --profile stremio --profile comet up -d
+      - This can be useful for other commands like `docker compose --profile comet restart` or `docker compose --profile comet logs` 
    - Ensure port 443 and port 80 are open.
    - If you have not setup Cloudflare DDNS in the .env by providing your token and using the `cloudflare-ddns` profile, you will need to manually create A records for each service you want to use using the subdomain in the .env file. 
    - Ensure you follow the instructions in the .env for any additional instructions that need to be carried out for some services (e.g. adding the prowlarr/jackett api keys or editing Seanime's config.toml)
